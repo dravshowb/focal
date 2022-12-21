@@ -1,0 +1,536 @@
+/*common css*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: roboto;
+}
+.container{
+    width: 1178px;
+    margin: auto;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section_info{
+    text-align: center;
+}
+.section_info h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #4b5456;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+.section_info h3{
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.section_info p{
+    font-size: 18px;
+    color: #4b5456;
+    display: block;
+    text-align: justify;
+    line-height: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+/*common css*/
+/*nav section*/
+nav{
+    background-color: #423b5e;
+    width: 100%;
+    
+}
+nav .menu_section{
+    margin: auto;
+    color: #423b5e;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+}
+nav .menu_bar{
+    width: 1178px;
+    margin: auto;
+    color: #423b5e;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+nav .logo{
+    width: 20%;
+}
+
+nav .menu{
+    width: 80%;
+}
+nav .menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+nav .menu ul li a{
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 29px 20px;
+    display: inline-block;
+    transition: .6s;
+}
+nav .menu ul li:hover a{
+    color: #2ecc71;
+}
+/*nav section*/
+/*banner section*/
+#banner {
+    background-image: url(../img/banner.jpg);
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+}
+#banner .container{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#banner .banner_content{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+#banner .banner_content h1{
+    font-size: 60px;
+    font-weight: 700;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    margin: 50px 0;
+    display: inline-block;
+    
+}
+#banner .banner_content a{
+    color: #fff;
+    font-size: 18px;
+    padding: 20px 36px;
+    border: 2px solid #fff;
+    width: 100%;
+}
+/*banner section*/
+/*info section*/
+#info .info_item{
+    width: 33.3%;
+    text-align: center;
+    text-align: center;
+    margin: 100px 0;
+    border-right: 1px solid #000;
+}
+#info .info_item:last-child{
+    border-right-color: transparent;
+}
+#info .info_item h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #4b5456;
+    text-transform: uppercase;
+
+}
+#info .info_item p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #4b5456;
+}
+/*info section*/
+/*about section*/
+#about{
+    background: #f1f1f1;
+}
+#about .about_img{
+    width: 30%;
+}
+#about .about_img img{
+    display: block;
+    max-width: 100%;
+}
+#about .about_info{
+    width: 70%;
+    padding: 80px 100px 80px;
+    
+}
+#about .about_info .section_info{
+    text-align: left;
+}
+#about .about_info .section_info h2{
+    margin-bottom: 40px;
+}
+
+#about .about_item{
+    width: 50%;
+    padding-right: 50px;
+}
+#about .about_item i{
+    font-size: 30px;
+    color: #2ecc71;
+}
+#about .about_item h3{
+    font-size: 22px;
+    color: #4b5456;
+}
+#about .about_info .about_content p{
+    line-height: 20px;
+} 
+#about .about_item .icon{
+    width: 70px;
+}
+#about .about_item .about_item_text{
+    width: calc(100% - 70px);
+}
+/*about section*/
+
+/*skill section*/
+#skills .container{
+    padding: 90px 0;
+}
+#skills .section_info{
+    width: 50%;
+    margin: 100px 0;
+    text-align: left;
+}
+#skills .section_info h2{
+    font-size: 30px;
+    margin-bottom: 49px;
+}
+#skills .section_info p{
+    margin-bottom: 46px;
+    padding-right: 47px;
+}
+#skills .section_info a{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    background-color: none;
+    color: #2ecc71;
+    padding: 20px 36px;
+    border: 2px solid #2ecc71;
+    margin-top: 46px;
+    display: inline-block;
+}
+
+#skills .grouth{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+#skills .grouth .progress_item h2{
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #566366;
+    margin-bottom: 20px;
+}
+#skills .grouth .progress_item .num{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: end;
+    padding-right: 5px;
+    color: #fff;
+}
+#skills .grouth .grouth_100{
+    width: 560px;
+    height: 30px;
+    background: #f2f2f1;
+}
+
+#skills .grouth .grouth_90{
+    width: 90%;
+    height: 100%;
+    background: #2ecc71;
+}
+#skills .grouth .grouth_80{
+    width: 80%;
+    height: 100%;
+    background: #2ecc71;
+}
+#skills .grouth .grouth_70{
+    width: 70%;
+    height: 100%;
+    background: #2ecc71;
+}
+/*skill section*/
+/*resume section*/
+#resume {
+    background-color: #f2f2f1;
+    padding: 100px 0;
+    position: relative;
+}
+#resume::after {
+    position: absolute;
+    content: '';
+    height: 50px;
+    width: 50px;
+    background: #f2f2f1;
+    bottom: -7px;
+    left: 50%;
+    transform: rotate(45deg);
+}
+#resume .resume_info{
+    margin: 100px 100px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+#resume .resume_info h2{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #566366;
+    margin: 50px 0;
+}
+#resume .resume_info p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #919191;
+    width: 1021px;
+    text-align-last: center;
+    line-height: 36px;
+}
+#resume .resume_info a{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    background-color: none;
+    color: #2ecc71;
+    padding: 20px 36px;
+    border: 2px solid #2ecc71;
+    margin-top: 46px;
+    display: inline-block;
+}
+/*resume section*/
+/*education section*/
+#experience{
+    margin-bottom: 100px;
+}
+#experience .education{
+    width: 50%;
+    padding-right: 37px;
+    margin-top: 100px;
+}
+#experience .education .section_info{
+    text-align: left;
+}
+#experience .degrees{
+    width: 50%;
+    padding-left: 37px;
+    margin-top: 173px;
+}
+#experience hr{
+    color: #ccc;
+    margin: 30px 0;
+}
+#experience .gd_diploma h3{
+    font-size: 22px;
+    color: #566366;
+}
+#experience .gd_diploma p{
+    color: #919191;
+    line-height: 30px;
+}
+#experience .gd_diploma a{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 8px 9px;
+    margin-top: 30px;
+    display: inline-block;
+}
+/*education section*/
+/*same section start*/
+#same{
+    background-color: #f1f1f1;
+    padding: 100px 0;
+}
+#same .resume_info{
+    margin: 100px 100px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+}    
+#same .resume_info p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #919191;
+    width: 1060px;
+    text-align-last: center;
+    line-height: 36px;
+}
+#same .resume_info h2{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #566366;
+    margin: 50px 0;
+}
+/*same section end*/
+/*portfolio section start*/
+#protfolio .protfolio_info{
+    color: #919191;
+    text-align: center;
+    margin: 100px 0;
+}
+#protfolio .protfolio_info h2{
+    font-size: 30px;
+    color: #4b5456;
+    margin-bottom: 50px;
+}
+#protfolio .protfolio_info p{
+    width: 1020px;
+    line-height: 36px;
+    margin: auto;
+}
+#protfolio #imgu{
+    width: 366px;
+    height: 300px;
+    padding: 40px;
+    background-color: #252e30;
+}
+#protfolio #imgu h6{
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+}
+#protfolio .protfolio_item{
+    width: calc( 100% / 3 );
+    margin: 20.5px;
+}
+/*portfolio section end*/
+
+/*form section*/
+#form h2{
+    color: #fff;
+}
+#form{
+    background-color: #252e30;
+}
+#form .container{
+    height: 840px;
+}
+#form .indo_content{
+    width: 50%;
+    height: 100%;
+    padding-top: 100px;
+}
+#form .form_content{
+    width: 50%;
+    padding-left: 50px;
+    height: 100%;
+    padding-top: 100px;
+}
+#form .info_content{
+    width: 50%;
+    padding: 30px 0px;
+}
+#form .indo_content table{
+    width: 225px;
+}
+#form .indo_content table .first{
+    width: 75;
+    height: 20px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 30px;
+}
+#form .indo_content table .second{
+    width: 150px;
+    height: 20px;
+    font-size: 14px;
+    color: #919191;
+    line-height: 30px;
+}
+#form #form_content form h6{
+    width: 10px 0px;
+    font-size: 14px;
+    color: #fff;
+} 
+#form #form_content form .sm{
+    width: 100%;
+    height: 40px;
+    background-color: #4b5456;
+    border: 0px;
+}
+#form #form_content form .lg{
+    height: 270px;
+}
+#form #form_content form h6{
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+#form #form_content a{
+    background-color: #191f21;
+    padding: 10px 25px;
+    border: none;
+}
+#form #form_content #lasta{
+    padding: 30px;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+/*footer*/
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: #191f21;
+}
+footer .pclass{
+    font-size: 12px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+footer ul{
+    justify-content: center;
+}
+footer ul li{
+    padding: 5px;
+}
+footer ul .iconbox{
+    height: 35px;
+    width: 35px;
+    border: 0px;
+    border-radius: 21px;
+    background-color:#4b5456 ;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+footer ul li a{
+    display: inline-block;
+    margin: auto;
+}
+footer ul li i{
+    color:#191f21;
+    font-size: 20px;
+    transition: .8s;
+}
+footer ul li:hover i{
+    color: #fff;
+}
